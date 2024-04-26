@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import { links } from '@/app/lib/const';
 import Image from 'next/image';
 import { services } from '@/app/lib/const';
 
@@ -23,9 +25,9 @@ export default function Footer () {
               role="list"
               class="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
             >
-              <li role="listitem"><a href="#" class="hover:text-primary">Inicio</a></li>
-              <li role="listitem"><a href="#" class="hover:text-primary">Servicios</a></li>
-              <li role="listitem"><a href="#" class="hover:text-primary">Sobre nosotros</a></li>
+              <li role="listitem"><a href="/" class="hover:text-primary">Inicio</a></li>
+              <li role="listitem"><a href="/servicios" class="hover:text-primary">Servicios</a></li>
+              <li role="listitem"><a href="/sobre-nosotros" class="hover:text-primary">Sobre nosotros</a></li>
             </ul>
 
             <ul
