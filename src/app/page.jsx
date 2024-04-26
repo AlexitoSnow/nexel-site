@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import Button from "./components/Button";
 import ContactForm from "./components/ContactForm";
@@ -18,7 +19,9 @@ export default function Home() {
         />
         <section className="z-10 flex flex-col space-y-5 text-center items-center w-1/2 absolute top-1/3 md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <h1 className="text-white text-3xl md:text-5xl font-bold">Tu negocio al siguiente nivel</h1>
-          <Button text="Comenzar"/>
+          <Link href="/servicios">
+            <Button text="Comenzar"/>
+          </Link>
         </section>
       </section>
       <section className="px-5">

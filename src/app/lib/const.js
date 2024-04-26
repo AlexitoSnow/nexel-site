@@ -1,3 +1,5 @@
+import { redirect } from "next/dist/server/api-utils";
+
 export const links = [
     { href: '/', text: 'Inicio' },
     { href: '/servicios', text: 'Servicios' },
@@ -13,6 +15,7 @@ export const services = [
       price: '800',
       image: '/assets/images/sistema1.png',
       features: ['Registro/inicio sesion', 'Carrito de compras', 'Formulario de pago', 'Servicio alojamiento/base de datos'],
+      number: "593963328168"
     },
     {
       slug: 'tienda-con-formulario',
@@ -21,6 +24,9 @@ export const services = [
       price: '600',
       image: '/assets/images/servicio2.png',
       features: ['Carrito de compras', 'Formulario de pago', 'Servicio alojamiento/base de datos'],
+      link: "https://api.whatsapp.com/send?phone=593963328168",
+      number: "593963328168"
+
     },
     {
       slug: 'tienda-con-boton-pago',
@@ -29,5 +35,7 @@ export const services = [
       price: '1000',
       image: '/assets/images/servicio3.png',
       features: ['Registro/Inicio de sesion','Carrito de compras', 'Boton de compras', 'Servicio alojamiento/base de datos'],
+      link: "https://api.whatsapp.com/send?phone=593963328168",
+      number: "593963328168"
     },
   ];

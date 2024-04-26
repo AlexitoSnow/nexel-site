@@ -11,12 +11,14 @@ export default function NavBar() {
 
     return (
         <nav className="flex flex-row justify-between w-auto p-2 bg-gray-900">
-            <Image
-                src="/nexel_white.svg"
-                alt="Logo"
-                width={50}
-                height={50}
-            />
+            <Link href="/">
+                <Image
+                    src="/nexel_white.svg"
+                    alt="Logo"
+                    width={50}
+                    height={50}
+                />
+            </Link>
             <section className='flex flex-row space-x-5'>
                 {links.map((link) => (
                     <Link key={link.href}
