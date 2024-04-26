@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Button from "../components/Button";
+import Link from "next/link";
+
 
 export default function Servicios() {
 
@@ -13,21 +15,27 @@ export default function Servicios() {
           <Image className="w-1/2 h-1/2" src="/assets/images/sistema1.png" alt="" width={300} height={120} />
           <h1 className="text-lg">Tienda con registro</h1>
           <h1 className="text-lg">Inicio de sesión</h1>
-          <Button text="Ver más"/>
+          <Link href="/servicios/tienda-con-registro">
+            <Button text="Ver más"/>
+          </Link>
         </div>
 
         <div className="flex flex-col justify-center items-center w-full md:w-auto p-4 rounded-lg bg-black text-white">
           <Image className="w-1/2 h-1/2" src="/assets/images/servicio2.png" alt="" width={300} height={120} />
           <h1 className="text-lg">Tienda con</h1>
           <h1 className="text-lg">formulario</h1>
-          <Button text="Ver más"/>
+          <Link href="/servicios/tienda-con-formulario">
+            <Button text="Ver más"/>
+          </Link>
         </div>
 
         <div className="flex flex-col justify-center items-center w-full md:w-auto p-4 rounded-lg bg-black text-white">
           <Image className="w-1/2 h-1/2" src="/assets/images/servicio3.png" alt="" width={300} height={120} />
           <h1 className="text-lg">Tienda con registro</h1>
           <h1 className="text-lg">Botón de pago</h1>
-          <Button text="Ver más"/>
+          <Link href="servicios/tienda-con-boton-pago">
+            <Button text="Ver más"/>
+          </Link>
         </div>
       </section>
     </main>

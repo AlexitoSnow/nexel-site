@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .login-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-section input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .login-section button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Sección principal */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .service-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-details img {
+    max-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .service-info h2 {
+    margin-top: 0;
+  }
+  
+  .service-info p {
+    margin-bottom: 10px;
+  }
+  
+  .service-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .service-info li {
+    margin-bottom: 5px;
+  }
+  
+  /* Botón "Pedir servicio" */
+  .order-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
