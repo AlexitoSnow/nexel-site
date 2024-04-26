@@ -5,7 +5,7 @@ const WhatsAppButton = ({ servicio }) => {
   const router = useRouter();
 
   const handlePedirServicio = () => {
-    const mensaje = `¡Hola! Me interesa el servicio: ${servicio.name}. ¿Podrías proporcionarme más información?. Si tiene informacion de la tienda que desea puede brindarme informacion para poder crearla. Puedes pedirme caracteristicas de la tienda en linea como: lista de productos, barra de busqueda, orden de productos. Segun eso podria proporcionarle un precio final`;
+    const mensaje = `¡Hola! Me interesa el servicio: ${servicio.name}. Deseo que mi tienda en linea tenga lo siguiente:.`;
     const encodedMensaje = encodeURIComponent(mensaje);
     const whatsappURL = `https://wa.me/${servicio.number}?text=${encodedMensaje}`;
     
