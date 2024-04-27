@@ -87,7 +87,7 @@ export default function Footer () {
       
             <div class="text-center">
               <span class="text-sm tracking-wide"
-                >Copyright © nexel <span id="year"></span> | All right reserved</span>
+                >Copyright © nexel <span id="year"></span> | Todos los derechos reservados</span>
             </div>
           </div>
         </div>
