@@ -10,8 +10,8 @@ export default function Servicio({ params }) {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center p-8 bg-gray-800 text-white rounded-lg">
-      <img src={servicio.image} alt={servicio.name} className="w-full max-w-xs" />
+    <div className="flex flex-col justify-center items-center p-8 bg-gray-800 text-white ">
+      <img src={servicio.image} alt={servicio.name} className="w-full max-w-xs rounded-lg"  />
       <h2 className="text-2xl font-bold mb-2">{servicio.name}</h2>
       <p className="text-lg font-semibold mb-2">${servicio.price}</p>
       <p className="text-gray-300 mb-4">{servicio.description}</p>

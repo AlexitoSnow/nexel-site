@@ -20,6 +20,7 @@ export default function Servicios() {
           </Link>
         </div>
 
+
         <div className="flex flex-col justify-center items-center w-full md:w-auto p-4 rounded-lg bg-black text-white">
           <Image className="w-1/2 h-1/2" src="/assets/images/servicio2.png" alt="" width={300} height={120} />
           <h1 className="text-lg">Tienda con</h1>

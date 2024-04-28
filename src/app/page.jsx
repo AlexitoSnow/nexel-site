@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Button from "./components/Button";
-import ContactForm from "./components/ContactForm";
+import MapmundiSection from "./components/animacion_mapamundi";
 
 export default function Home() {
   var tecnologias = [
@@ -24,7 +24,10 @@ export default function Home() {
           </Link>
         </section>
       </section>
+
+      <MapmundiSection/>
       <section className="px-5">
+
       <section className="flex flex-col md:flex-row py-4">
           <div className="w-1/2 space-y-4 flex flex-col justify-center">
             <h2 className="text-4xl font-bold">Nuestras Tecnologías</h2>
