@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { links } from '@/app/lib/const';
+import { links } from '@/lib/const';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 

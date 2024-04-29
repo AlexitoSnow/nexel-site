@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import Button from "./components/Button";
-import MapmundiSection from "./components/animacion_mapamundi";
+import Button from "../components/Button";
+import MapmundiSection from "../components/animacion_mapamundi";
 
 export default function Home() {
   var tecnologias = [

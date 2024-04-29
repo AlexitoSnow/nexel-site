@@ -1,5 +1,3 @@
-import { redirect } from "next/dist/server/api-utils";
-
 export const links = [
     { href: '/', text: 'Inicio' },
     { href: '/servicios', text: 'Servicios' },

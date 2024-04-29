@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { links } from '@/app/lib/const';
+import { links } from '@/lib/const';
 import Image from 'next/image';
-import { services } from '@/app/lib/const';
+import { services } from '@/lib/const';
 
 
 export default function Footer () {
@@ -30,14 +30,6 @@ export default function Footer () {
               <li role="listitem"><a href="/sobre-nosotros" class="hover:text-primary">Sobre nosotros</a></li>
             </ul>
 
-            <ul
-              role="list"
-              class="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
-            >
-              <li role="listitem"><a href="/servicios/tienda-con-registro" class="hover:text-primary">Servicio 1</a></li>
-              <li role="listitem"><a href="/servicios/tienda-con-formulario" class="hover:text-primary">Servicio 2</a></li>
-              <li role="listitem"><a href="/servicios/tienda-con-boton-pago" class="hover:text-primary">Servicio 3</a></li>
-            </ul>
             <div class="m-auto flex w-max items-center justify-between space-x-4">
 
               <a href="https://api.whatsapp.com/send?phone=593963328168" aria-label="call">

@@ -1,5 +1,5 @@
-import { services } from '@/app/lib/const';
-import WhatsAppButton from '@/app/components/whatsapp_button';
+import { services } from '@/lib/const';
+import WhatsAppButton from '@/components/whatsapp_button';
 
 export default function Servicio({ params }) {
   const { name } = params;
