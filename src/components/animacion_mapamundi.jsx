@@ -41,14 +41,8 @@ const MapmundiSection = () => {
   }, [isVisible]);
 
   return (
-    <div id="map-section" className=" py-5 ">
+    <div id="map-section" className="py-6 bg-sky-400">
       <div className="row">
-        <div className="col-md-6">
-          {/* Texto introductorio */}
-          <p className='mb-4'>
-            Aquí puedes encontrar información sobre los servicios que ofrecemos.
-          </p>
-        </div>
         <div className="col-md-6">
           {/* Video */}
           <div className="embed-responsive embed-responsive-16by9">

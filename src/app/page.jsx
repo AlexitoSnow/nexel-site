@@ -9,7 +9,7 @@ export default function Home() {
   ];
   return (
     <main className="flex min-h-screen flex-col">
-      <section>
+      <section className="relative">
         <Image
           src="/assets/images/landing.svg"
           alt="Imagen de bienvenida"
@@ -17,13 +17,18 @@ export default function Home() {
           height={400}
           className="w-full"
         />
-        <section className="z-10 flex flex-col space-y-5 text-center items-center w-1/2 absolute top-1/3 md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <h1 className="text-white text-3xl md:text-5xl font-bold">Tu negocio al siguiente nivel</h1>
-          <Link href="/servicios">
-            <Button text="Comenzar"/>
-          </Link>
-        </section>
+        <div className="absolute inset-0 flex flex-col justify-center items-center px-4">
+          <div className="max-w-full md:max-w-2xl text-center">
+            <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">
+              Tu negocio al siguiente nivel
+            </h1>
+            <Link href="/servicios" className="inline-block">
+              <Button text="Comenzar" />
+            </Link>
+          </div>
+        </div>
       </section>
+
 
       <MapmundiSection/>
       <section className="px-5">

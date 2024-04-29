@@ -1,7 +1,6 @@
 export const links = [
     { href: '/', text: 'Inicio' },
     { href: '/servicios', text: 'Servicios' },
-    { href: '/sobre-nosotros', text: 'Sobre Nosotros' }
 ];
 
 
