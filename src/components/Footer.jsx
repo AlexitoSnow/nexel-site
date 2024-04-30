@@ -27,7 +27,6 @@ export default function Footer () {
             >
               <li role="listitem"><a href="/" class="hover:text-primary">Inicio</a></li>
               <li role="listitem"><a href="/servicios" class="hover:text-primary">Servicios</a></li>
-              <li role="listitem"><a href="/sobre-nosotros" class="hover:text-primary">Sobre nosotros</a></li>
             </ul>
 
             <div class="m-auto flex w-max items-center justify-between space-x-4">

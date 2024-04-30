@@ -10,7 +10,7 @@ export default function Servicio({ params }) {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center bg-gray-800 text-white ">
+    <div className="flex flex-col justify-center items-center bg-gray-800 text-white p-2">
       <img src={servicio.big_image} alt={servicio.name} className="w-full h-auto max-w-full rounded-lg"  />
       <div className='p-2 flex justify-between items-center w-full'>
         <h2 className="text-2xl font-bold mb-2 w-1/2">{servicio.name}</h2>

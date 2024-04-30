@@ -32,25 +32,40 @@ export default function Home() {
 
       <MapmundiSection/>
       <section className="px-5">
-
-      <section className="flex flex-col md:flex-row py-4">
-          <div className="w-1/2 space-y-4 flex flex-col justify-center">
-            <h2 className="text-4xl font-bold">Nuestras Tecnologías</h2>
-            <p className="text-lg">
-              Trabajamos con tecnologías de vanguardia y específicamente
-              elegidas para tus necesidades.
+        <section className="flex flex-col md:flex-row py-8">
+          <div className="w-full md:w-1/2 flex flex-col items-center mb-4 md:mb-0">
+            <h2 className="text-4xl font-bold text-center">Nuestras Tecnologías</h2>
+            <p className="text-lg text-center">
+              Trabajamos con tecnologías de vanguardia y específicamente elegidas para tus necesidades.
             </p>
           </div>
-          <Image src="https://skillicons.dev/icons?i=nextjs,tailwind,react,html,javascript,css,mongodb,figma,astro&perline=3" width={400} height={200} />
+          <div className="w-full md:w-1/2 flex justify-center">
+            <Image
+              src="https://skillicons.dev/icons?i=nextjs,tailwind,react,html,javascript,css,mongodb,figma,astro&perline=3"
+              width={400}
+              height={200}
+              alt="Tecnologías utilizadas"
+              className="max-w-full h-auto"
+            />
+          </div>
         </section>
-        <section className="flex flex-col md:flex-row py-4">
-          <div className="w-1/2 space-y-4 flex flex-col justify-center md:items-start items-center">
-            <h2 className="text-4xl font-bold">Lo que Ofrecemos</h2>
-            <p className="text-lg">
+
+        <section className="flex flex-col md:flex-row py-8">
+          <div className="w-full md:w-1/2 flex flex-col items-center mb-4 md:mb-0">
+            <h2 className="text-4xl font-bold text-center">Lo que Ofrecemos</h2>
+            <p className="text-lg text-center">
               Diseñar una tienda web ajustada a tus necesidades, con posicionamiento y experiencia de usuario.
             </p>
           </div>
-          <Image src="/assets/images/responsive_ecomerce.svg" width={500} height={200} />
+          <div className="w-full md:w-1/2 flex justify-center">
+            <Image
+              src="/assets/images/responsive_ecomerce.svg"
+              width={500}
+              height={200}
+              alt="Imagen de tienda web responsive"
+              className="max-w-full h-auto"
+            />
+          </div>
         </section>
       </section>
     </main>
